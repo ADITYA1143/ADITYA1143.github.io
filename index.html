@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Ghumare - Portfolio</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("SCulSHSVW397hOmU2"); // Replace with your actual Public Key
+        })();
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <nav>
+            <div class="logo">Aditya Ghumare</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="intro-text">Hello, my name is</p>
+                    <h1>Aditya Ghumare</h1>
+                    <h3>I build things for the web.</h3>
+                    <p class="hero-subtitle">I'm a <span id="typed-text"></span> with knowledge in web development and design, I offer the best projects resulting in quality work.</p>
+                    
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://github.com/ADITYA1143" target="_blank" class="hero-social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mr-aditya-ghumare-312953295/" target="_blank" class="hero-social-icon" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://x.com/Adg1143" target="_blank" class="hero-social-icon" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://threads.net" target="_blank" class="hero-social-icon" title="Threads"><i class="fa-brands fa-threads"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-container">
+                    <div class="hero-image">
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            Available for Work
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="hidden">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="term-btn red"></span>
+                                <span class="term-btn yellow"></span>
+                                <span class="term-btn green"></span>
+                            </div>
+                            <div class="terminal-title">aditya_info.json</div>
+                        </div>
+                        <div class="terminal-window">
+                            <div class="code-line"><span class="keyword">const</span> <span class="variable">profile</span> <span class="operator">=</span> {</div>
+                            <div class="code-line indent">name: <span class="string">"Aditya Ghumare"</span>,</div>
+                            <div class="code-line indent">role: <span class="string">"Full Stack Developer"</span>,</div>
+                            <div class="code-line indent">skills: [</div>
+                            <div class="code-line double-indent"><span class="string">"MERN Stack"</span>, <span class="string">"UI/UX"</span>, <span class="string">"Video Editing"</span></div>
+                            <div class="code-line indent">],</div>
+                            <div class="code-line indent">focus: <span class="string">"Building scalable web applications"</span></div>
+                            <div class="code-line">};</div>
+                        </div>
+                    </div>
+
+                    <div class="about-details">
+                        <div class="about-bio">
+                            <p>I am a <strong>Full Stack Developer</strong> who bridges the gap between logic and creativity. Currently pursuing my BSc IT at <strong>K.V. Pendharkar College</strong>, I specialize in architecting scalable web applications while maintaining a keen eye for intuitive design.</p>
+                            <p>My journey isn't just about writing clean code; it's about storytelling. With a background in <strong>Video Editing</strong> and <strong>UI/UX Design</strong>, I ensure that every pixel serves a purpose.</p>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="edu-icon"><i class="fas fa-university"></i></div>
+                            <div class="edu-info">
+                                <h4>Bachelor of Science in I.T.</h4>
+                                <p class="edu-year">Third Year Student</p>
+                                <div class="edu-score">
+                                    <span>College:</span>
+                                    <span class="highlight-score">K.V. Pendharkar College</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="resume-wrapper">
+                            <a href="your-resume.pdf" class="btn btn-primary resume-btn" download>
+                                Download Resume <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="hidden">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Tech Stack</h2>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div><h3>React.js</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.simpleicons.org/nextdotjs/ffffff" alt="Next.js"></div><h3>Next.js</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript"></div><h3>TypeScript</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div><h3>JavaScript</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind"></div><h3>Tailwind CSS</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"></div><h3>Bootstrap</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.simpleicons.org/shadcnui/ffffff" alt="ShadCn"></div><h3>ShadCn UI</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div><h3>HTML & CSS</h3></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Backend & Core</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.simpleicons.org/express/ffffff" alt="Express"></div><h3>Express.js</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node"></div><h3>Node.js</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" alt=".NET"></div><h3>.NET</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div><h3>MongoDB</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div><h3>MySQL</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div><h3>C & C++</h3></div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Languages & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div><h3>Python</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"></div><h3>Java</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas"></div><h3>Pandas</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy"></div><h3>NumPy</h3></div>
+                        <div class="skill-card"><div class="skill-icon"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub"></div><h3>Git & GitHub</h3></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="hidden">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Recent Projects</h2>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/0a192f/64ffda?text=Gemini+Clone" alt="Gemini Clone">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="#" data-tooltip="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Gemini Clone</h3>
+                            <div class="project-details">
+                                <p><strong>Problem:</strong> Fragmented AI interfaces often lack smooth real-time token streaming and intuitive UX.</p>
+                                <p><strong>Solution:</strong> Engineered a reactive UI using Gemini API and React for instant response rendering.</p>
+                                <p><strong>Impact:</strong> Achieved zero-latency visual feedback, enhancing the conversational experience.</p>
+                            </div>
+                            <div class="project-tags">
+                                <span>React</span><span>Tailwind</span><span>Gemini API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/0a192f/64ffda?text=Expense+Tracker" alt="Expense Tracker">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="#" data-tooltip="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Expense Tracker</h3>
+                            <div class="project-details">
+                                <p><strong>Problem:</strong> Manual budget tracking is tedious and often lacks meaningful visual insights.</p>
+                                <p><strong>Solution:</strong> Built a dashboard with Chart.js to automatically categorize and visualize spending.</p>
+                                <p><strong>Impact:</strong> Reduced logging time by 40% with data-driven categorization and charts.</p>
+                            </div>
+                            <div class="project-tags">
+                                <span>JavaScript</span><span>Chart.js</span><span>Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/0a192f/64ffda?text=InnoVision" alt="InnoVision">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="#" data-tooltip="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>I.T. InnoVision</h3>
+                            <div class="project-details">
+                                <p><strong>Problem:</strong> Event registration systems often struggle with high-traffic data sync during tech fests.</p>
+                                <p><strong>Solution:</strong> Developed a robust portal with MongoDB and Next.js to handle real-time registrations.</p>
+                                <p><strong>Impact:</strong> Successfully managed 500+ registrations with zero downtime and automated scheduling.</p>
+                            </div>
+                            <div class="project-tags">
+                                <span>Next.js</span><span>MongoDB</span><span>ShadCn UI</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-img">
+                            <img src="https://via.placeholder.com/400x250/0a192f/64ffda?text=Weather+App" alt="Weather App">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="#" data-tooltip="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="#" data-tooltip="Live Demo" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Weather App</h3>
+                            <div class="project-details">
+                                <p><strong>Problem:</strong> Users need localized weather context with immersive visual condition feedback.</p>
+                                <p><strong>Solution:</strong> Integrated geolocation with dynamic CSS logic using OpenWeather data.</p>
+                                <p><strong>Impact:</strong> Delivered local updates with a CONDITION-AWARE UI for better accessibility.</p>
+                            </div>
+                            <div class="project-tags">
+                                <span>Node.js</span><span>OpenWeather API</span><span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="view-more-container">
+                    <a href="https://github.com/ADITYA1143" target="_blank" class="btn btn-secondary">Explore More on GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="hidden">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch</h2>
+                    <p class="contact-intro-text">Let's build something amazing together.</p>
+                </div>
+                
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <a href="mailto:adityaghumare@gmail.com" class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-paper-plane"></i></div>
+                            <div class="contact-card-text">
+                                <h3>Drop a Mail</h3>
+                                <p>adityaghumare14@gmail.com</p>
+                            </div>
+                        </a>
+
+                        <div class="social-hub">
+                            <h3>Let's Connect on Socials</h3>
+                            <div class="social-grid">
+                                <a href="https://www.linkedin.com/in/mr-aditya-ghumare-312953295/" class="social-box" data-tooltip="LinkedIn">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn">
+                                </a>
+                                <a href="https://github.com/ADITYA1143" class="social-box" data-tooltip="GitHub">
+                                    <img src="https://cdn.simpleicons.org/github/ffffff" alt="GitHub">
+                                </a>
+                                <a href="https://x.com/Adg1143" class="social-box" data-tooltip="X / Twitter">
+                                    <img src="https://cdn.simpleicons.org/x/ffffff" alt="X">
+                                </a>
+                                <a href="#" class="social-box" data-tooltip="Threads">
+                                    <img src="https://cdn.simpleicons.org/threads/ffffff" alt="Threads">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="modern-form">
+                            <div class="form-group">
+                                <input type="text" id="name" required placeholder=" ">
+                                <label for="name">Your Name</label>
+                                <div class="line"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required placeholder=" ">
+                                <label for="email">Your Email</label>
+                                <div class="line"></div>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" required placeholder=" "></textarea>
+                                <label for="message">Your Message</label>
+                                <div class="line"></div>
+                            </div>
+                            <button type="submit" class="btn btn-secondary submit-btn">
+                                Send Message <i class="fas fa-terminal"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aditya Ghumare. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
