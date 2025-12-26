@@ -41,7 +41,7 @@ nav { display: flex; justify-content: space-between; align-items: center; max-wi
 .hero-content { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; max-width: 1200px; width: 100%; gap: 4rem; }
 .hero-text { flex: 2; min-width: 300px; }
 .hero-image-container { flex: 1; display: flex; justify-content: center; align-items: center; min-width: 250px; max-width: 350px; }
-.hero-image { width: 100%; padding-bottom: 100%; background-image: url('YOUR_IMAGE_URL_HERE'); background-size: cover; background-position: center; border-radius: 15%; border: 3px solid var(--accent-color); box-shadow: 0 0 20px rgba(100, 255, 218, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease; animation: float 6s ease-in-out infinite; position: relative; }
+.hero-image { width: 100%; padding-bottom: 100%; background-image: url('aditya-profile.jpg'); background-size: cover; background-position: center; border-radius: 15%; border: 3px solid var(--accent-color); box-shadow: 0 0 20px rgba(100, 255, 218, 0.4); transition: transform 0.3s ease, box-shadow 0.3s ease; animation: float 6s ease-in-out infinite; position: relative; }
 @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-20px); } 100% { transform: translateY(0px); } }
 
 /* Hero Text & Buttons */
@@ -207,4 +207,5 @@ footer {
 
 footer p {
     margin: 0; /* Removes default paragraph margins that might shift text */
+
 }
